@@ -1,0 +1,23 @@
+{ "name": "Gitconfig",
+  "scopeName": "text.gitconfig",
+  "fileTypes": [".gitconfig"],
+  "patterns": [
+    { "match": "^\\[[^]]*\\]",
+      "name": "entity.gitconfig",
+      "comment": "Section headings"
+    },
+    { "match": "([A-Za-z]+)\\s*=\\s*(.*)",
+      "name": "support.gitconfig",
+      "captures": {
+        "1": { "name": "storage.gitconfig" },
+        "2": { "name": "string.gitconfig" }
+      },
+      "comment": "Setting"
+    },
+    { "match": "#.*",
+      "name": "comment.gitconfig",
+      "comment": "Comments"
+    }
+  ],
+  "uuid": "ad48b2c7-9203-47d5-85ea-e41fe7705971"
+}
