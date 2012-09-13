@@ -1,6 +1,6 @@
 # Gitconfig Syntax Definition
 
-A Sublime Text 2 syntax definition file to offer syntax coloring for your `.gitconfig` files.
+A Sublime Text 2 syntax definition file to offer syntax coloring for your `.gitconfig` files.  *It may work with TextMate also, but I haven't tested it.*
 
 # Installation
 
