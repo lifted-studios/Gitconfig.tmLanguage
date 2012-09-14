@@ -2,8 +2,11 @@
   "scopeName": "text.gitconfig",
   "fileTypes": [".gitconfig"],
   "patterns": [
-    { "match": "^\\[[^]]*\\]",
+    { "match": "^\\[[^]\"]*(\"\\w+\")?\\]",
       "name": "entity.gitconfig",
+      "captures": {
+        "1": { "name": "string.gitconfig" }
+      },
       "comment": "Section headings"
     },
     { "match": "([^=]+)\\s*=\\s*(.*)",

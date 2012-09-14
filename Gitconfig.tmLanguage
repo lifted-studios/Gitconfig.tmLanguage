@@ -11,10 +11,18 @@
 	<key>patterns</key>
 	<array>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.gitconfig</string>
+				</dict>
+			</dict>
 			<key>comment</key>
 			<string>Section headings</string>
 			<key>match</key>
-			<string>^\[[^]]*\]</string>
+			<string>^\[[^]"]*("\w+")?\]</string>
 			<key>name</key>
 			<string>entity.gitconfig</string>
 		</dict>
