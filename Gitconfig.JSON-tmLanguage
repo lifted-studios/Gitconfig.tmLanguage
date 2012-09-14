@@ -6,7 +6,7 @@
       "name": "entity.gitconfig",
       "comment": "Section headings"
     },
-    { "match": "([A-Za-z]+)\\s*=\\s*(.*)",
+    { "match": "([^=]+)\\s*=\\s*(.*)",
       "name": "support.gitconfig",
       "captures": {
         "1": { "name": "storage.gitconfig" },
