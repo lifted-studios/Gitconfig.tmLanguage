@@ -9,7 +9,7 @@
       },
       "comment": "Section headings"
     },
-    { "match": "([^=]+)\\s*=\\s*(.*)",
+    { "match": "([^=]+)\\s*=\\s*([^#]*)",
       "name": "support.gitconfig",
       "captures": {
         "1": { "name": "storage.gitconfig" },
